@@ -6,17 +6,23 @@ html {
 body {
     background-color: #fdfdfd;
     margin: 0;
+
     font-family: "Arial", "Helvetica", “sans-serif”, cursive;
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .header {
-    background-color: pink;
+    background-color: #496ad8;
     color: #fdfdfd;
     text-align: center;
     padding: 20px;
+    font-family:
+        “Lucida Console”,
+        “Courier New”,
+        monospace;
 }
 
 .topnav {
@@ -41,13 +47,16 @@ body {
 .contenido {
     padding: 15px;
 
+    font-size: 40px;
+
     text-align: center;
 
     flex: 1;
 }
 
 .footer {
-    background-color: yellow;
+    background-color: #aeb5ce;
+
     padding: 20px;
     display: flex;
     justify-content: space-between;
